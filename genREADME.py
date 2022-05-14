@@ -1,7 +1,7 @@
 from re import finditer, findall
 import sys, getopt, os
 
-PATTERN = r'gen => \[.*\]\(.*\)'
+PATTERN = r'\ngen => \[.*\]\(.*\)'
 FILE = 'MAIN.md'
 WITH_TITLE = True
 N_HASHES = 3
