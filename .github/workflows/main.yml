@@ -7,9 +7,9 @@ jobs:
       - uses: actions/checkout@v3
       - uses: tezz-io/genREADME@main
         with:
-          file: MAIN.md
-          with_title: true
-          n_hashes: 2
+          file: "MAIN.md"
+          with_title: "true"
+          n_hashes: "2"
       - name: Setup Username and email
         run: |
           git config user.name github-actions
