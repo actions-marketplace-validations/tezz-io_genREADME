@@ -7,6 +7,9 @@ WITH_TITLE = True
 N_HASHES = 3
 
 try:
+    print("("+os.environ("INPUT_FILE")+")")
+    print("("+os.environ("INPUT_WITH_TITLE")+")")
+    print("("+os.environ("INPUT_N_HASHES")+")")
     if(os.environ["INPUT_FILE"] != '' and os.environ["INPUT_FILE"] != None):
         FILE = os.environ["INPUT_FILE"]
     if(os.environ["INPUT_WITH_TITLE"] != '' and os.environ["INPUT_WITH_TITLE"] != None):
