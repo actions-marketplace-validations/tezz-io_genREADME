@@ -49,8 +49,6 @@ jobs:
         git add .
         git commit -m "Generated README.md"
         git push
-
-        
 ```
 
 ### Inputs
