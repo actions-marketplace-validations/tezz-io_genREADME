@@ -7,10 +7,10 @@ inputs:
     default: "MAIN.md"
   with_title:
     description: "Whether you want file name as the title of the snippet"
-    default: true
+    default: "true"
   n_hashes:
     description: "Number of hashes before the title (h1=#, h2=##, ...)"
-    default: 2
+    default: "2"
 runs:
   using: "docker"
   image: "Dockerfile"
