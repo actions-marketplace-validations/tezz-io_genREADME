@@ -8,7 +8,7 @@ jobs:
       - uses: tezz-io/genREADME@main
         with:
           file: "MAIN.md"
-          with_title: "false"
+          with_title: "true"
           n_hashes: "2"
       - name: Setup Username and email
         run: |
