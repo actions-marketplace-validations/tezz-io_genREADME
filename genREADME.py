@@ -12,7 +12,7 @@ try:
     if(os.environ["INPUT_WITH_TITLE"] != '' and os.environ["INPUT_WITH_TITLE"] != None):
         WITH_TITLE = os.environ["WITH_TITLE"].strip().lower() == 'true'
     if(os.environ["INPUT_N_HASHES"] != '' and os.environ["INPUT_N_HASHES"] != None):
-        N_HASHES = int(os.environ["N_HASHES"])
+        N_HASHES = int(os.environ["INPUT_N_HASHES"])
 except:
     pass
 
