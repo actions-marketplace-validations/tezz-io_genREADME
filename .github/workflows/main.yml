@@ -10,10 +10,10 @@ jobs:
           file: MAIN.md
           with_title: true
           n_hashes: 2
-      - name: Setup Username
-        run: git config user.name tezz-io
-      - name: Setup Email
-        run: git config user.email totejasmr@gmail.com
+      - name: Setup Username and email
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
       - name: Push generated README.md  
         run: |
           git add .
