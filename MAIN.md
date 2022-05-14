@@ -2,7 +2,7 @@
 
 # Generated code snippets
 
-gen => [](pokemon/main.c)
+gen => [Pokemon](pokemon/main.c)
 gen => [](another/main.ts)
 
 ## Usage
