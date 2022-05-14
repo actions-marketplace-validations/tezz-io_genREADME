@@ -1,0 +1,15 @@
+name: "Run Generate README.md"
+description: "Generate Code from links"
+author: "Tejas M R"
+inputs:
+  file:
+    description: "Input .md file"
+    default: "MAIN.md"
+  with_title:
+    description: "Whether you want file name as the title of the snippet"
+    default: true
+  n_hashes:
+    description: "Number of hashes before the title (h1=#, h2=##, ...)"
+runs:
+  using: "docker"
+  image: "Dockerfile"
