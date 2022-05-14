@@ -12,8 +12,8 @@ jobs:
           n_hashes: 2
       - name: Setup Username and email
         run: |
-          git config user.name github-actions[bot]
-          git config user.email github-actions[bot]@users.noreply.github.com
+          git config user.name github-actions
+          git config user.email github-actions@github.com
       - name: Push generated README.md  
         run: |
           git add .
