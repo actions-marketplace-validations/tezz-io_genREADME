@@ -1,6 +1,9 @@
 name: "Run Generate README.md"
 description: "Generate Code from links"
 author: "Tejas M R"
+branding:
+  icon: "box"
+  color: "green"
 inputs:
   file:
     description: "Input .md file"
