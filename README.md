@@ -1,6 +1,6 @@
 # genREADME
 
-### Main
+## Main
 ```c
 #include <stdio.h>
 
@@ -9,7 +9,7 @@ int main() {
 }
 ```
 
-### Main
+## Main
 ```ts
 console.log("another");
 ```
