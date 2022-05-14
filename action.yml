@@ -10,6 +10,7 @@ inputs:
     default: true
   n_hashes:
     description: "Number of hashes before the title (h1=#, h2=##, ...)"
+    default: 2
 runs:
   using: "docker"
   image: "Dockerfile"
