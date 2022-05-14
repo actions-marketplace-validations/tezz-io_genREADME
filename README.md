@@ -1,7 +1,7 @@
 # genREADME
 
 # Generated code snippets
-## Main
+## Pokemon
 ```c
 #include <stdio.h>
 
